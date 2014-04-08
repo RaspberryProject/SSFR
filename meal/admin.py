@@ -1,3 +1,7 @@
 from django.contrib import admin
+from models import Meal, Product, Stock, Ingredient
 
-# Register your models here.
+admin.site.register(Meal)
+admin.site.register(Product)
+admin.site.register(Stock)
+admin.site.register(Ingredient)
